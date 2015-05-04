@@ -20,7 +20,9 @@ public class ContaCorrente
 			JOptionPane.showMessageDialog(null, "saldo insuficiente!\nseu saldo é de: "+ saldo);
 			
 		else
+		{
 			saldo = saldo - valor;
+			JOptionPane.showMessageDialog(null, "Saque efetuado com sucesso!");
 	}
 
 	public void depositar (double valor)
@@ -33,7 +35,7 @@ public class ContaCorrente
 	
 	public void verSaldo()
 	{
-		System.out.println(saldo);
+		JOptionPane.showMessageDialog(null, "seu saldo é de:saldo);
 	}
 
 
