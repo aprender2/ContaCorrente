@@ -7,7 +7,7 @@ public class TestContaCorrente
 		ContaCorrente c1 = new ContaCorrente();
 		
 		c1.nomeTitu = "italo";
-		c1.saldo = 700;
+		c1.saldo = 800;
 		c1.senha = "exemplo";
 		c1.verSaldo(); 
 		c1.sacar(1000);
