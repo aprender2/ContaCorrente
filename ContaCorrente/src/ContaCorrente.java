@@ -13,7 +13,7 @@ public class ContaCorrente
 		valor =Double.parseDouble(JOptionPane.showInputDialog("digite o saque: "));
 		
 		if (valor>saldo)
-			JOptionPane.showMessageDialog(null, "saldo insuficiente!\nseu saldo é de: "+ saldo);
+			JOptionPane.showMessageDialog(null, "saldo insuficiente!\nseu saldo Ã© de: "+ saldo);
 			
 		else
 		{
@@ -31,10 +31,8 @@ public class ContaCorrente
 	
 	public void verSaldo()
 	{
-		JOptionPane.showMessageDialog(null, "seu saldo é de:saldo);
+		JOptionPane.showMessageDialog(null, "seu saldo Ã© de:saldo);
 	}
-
-
 
 
 
