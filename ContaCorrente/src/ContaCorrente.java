@@ -1,8 +1,5 @@
 import java.util.Scanner;
-
 import javax.swing.JOptionPane;
-
-
 
 public class ContaCorrente 
 {
@@ -14,7 +11,6 @@ public class ContaCorrente
 	public void sacar (double valor)
 	{
 		valor =Double.parseDouble(JOptionPane.showInputDialog("digite o saque: "));
-		
 		
 		if (valor>saldo)
 			JOptionPane.showMessageDialog(null, "saldo insuficiente!\nseu saldo é de: "+ saldo);
